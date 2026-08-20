@@ -1,3 +1,5 @@
+# Hackviser Tiger Warmup - VNC Misconfiguration
+
 ## Executive Summary
 A VNC misconfiguration allowed access to a remote desktop without a password. This revealed a previous connection to the server.
 
@@ -14,9 +16,9 @@ Use VNC to establish a remote connection to the desktop, then further enumerate 
 The scope of this engagement is only the target machine. This is a grey-box engagement.
 
 Information given:
-Target IP address
-VNC is running on the target machine
-The port VNC was running on was a 4-digit number
+- Target IP address
+- VNC is running on the target machine
+- The port VNC was running on was a 4-digit number
 
 ## Methodology
 nmap was used to find which port VNC was running on, and remmina was used to establish the remote connection.
