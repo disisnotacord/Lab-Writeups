@@ -27,7 +27,7 @@ Burp Suite was used to find the parameter names, and ffuf was used to fuzz the p
 ## Findings
 We first opened the website, configured the Burp Suite proxy, and intercepted the login request
 
-![An image showing Burp Suite open, There are 2 requests, with the top one highlighted. The Highlighted URL is "https://assuring-forearm.europe1.hackviser.space". The method is POST.](images/Hackviser/Labs/Dictionary Attack/Burpsuite login request.png)
+![An image showing Burp Suite open, There are 2 requests, with the top one highlighted. The Highlighted URL is "https://assuring-forearm.europe1.hackviser.space". The method is POST.](images/Hackviser/Labs/Dictionary%20Attack/Burpsuite%20login%20request.png)
 
 After this, we sent the request to Burp Intruder, to let all other traffic flow. 
 
